@@ -1,0 +1,8 @@
+.active{
+    color: red !important;
+    border-bottom: 1px solid;
+}
+.nav-link{
+font-weight: bolder !important;    
+
+}
