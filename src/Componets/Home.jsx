@@ -1,12 +1,14 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import Header from './Elements/Header'
 
 const Home = () => {
   return (
-    <div>
-        <Header />
-      home
-    </div>
+    <>
+   <h1>
+    home
+   </h1>
+    </>
   )
 }
 
