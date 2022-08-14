@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import About from './Componets/About';
+import Error from './Componets/Error';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="*" element={<Error />} />
      
     </Routes>
     
